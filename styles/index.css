@@ -1,0 +1,19 @@
+body{
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+
+.homepage-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.homepage-container button{
+    background-color: #D0B53B;
+    height: 34px;
+    margin-right: 20px;    
+    border-color: white;
+    padding: 0px 10px;  
+}
