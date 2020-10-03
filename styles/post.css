@@ -1,0 +1,53 @@
+.create-post-container {
+  background-color: white;
+}
+.post-details {
+  padding: 0px 88px;
+}
+.post-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.edit-post-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-pink-btn {
+  background-color: #ed2653;
+  height: 34px;
+  color: #fff;
+  border: 0px;
+  padding: 0px 10px;
+  cursor: pointer;
+  width: 80px;
+}
+.post-pink-btn .fa-pencil-square-o,
+.fa-floppy-o {
+  font-size: 14px;
+  padding-left: 5px;
+}
+#savePostBtn {
+  display: none;
+}
+
+.liked-count-msg {
+  color: lightgrey;
+  padding: 10px 0px;
+}
+.comment-btn {
+  display: block;
+  margin: 16px 0px;
+}
+.comment-box {
+  border: 10px solid lightgrey;
+  border-right: 5px solid lightgrey;
+  border-left: 5px solid lightgrey;
+  padding: 10px 5px;
+  max-width: 400px;
+}
+.comments-list {
+  padding-top: 12px;
+}
