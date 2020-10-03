@@ -1,0 +1,84 @@
+.post-list-container {
+  background-color: #ffeedd;
+}
+.post-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.post-card {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  margin-right: 50px;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.post-title {
+  background-color: white;
+  padding: 10px;
+}
+
+.post-content {
+  background-color: #e8e8e8;
+  padding: 10px;
+  border-radius: 12px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.delete-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-trash {
+  color: #818181;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.delete-row span:nth-child(1) {
+  color: #96acc6;
+}
+.post-init-text {
+  max-height: 54px;
+  overflow: hidden;
+}
+
+.post-content .fa-ellipsis-h {
+  float: right;
+  color: #818181;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.modal-buttons-container{
+  display: flex;
+  justify-content: space-between;
+}
+.delete-confirm-msg{
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.delete-yes-btn{
+  background-color: green;
+  height: 34px;
+  color: #fff;
+  border: 0px;
+  padding: 0px 10px;
+  cursor: pointer;
+  width: 80px;
+}
+
+.delete-no-btn{
+  background-color: red;
+  height: 34px;
+  color: #fff;
+  border: 0px;
+  padding: 0px 10px;
+  cursor: pointer;
+  width: 80px;
+}
