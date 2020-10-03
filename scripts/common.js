@@ -17,8 +17,7 @@ function opeSignupCloseSignin() {
 
 
 
-var header = `<header>
-<div class="header">
+var header = `<div class="header">
   <div class="hr-left-container">
     <span class="heading">ScriBBler</span>
     <span class="subheading">Explore, Imagine, Create</span>
@@ -30,11 +29,6 @@ var header = `<header>
     <button onclick="openModal('signinModal')">Sign In</button>
   </div>
 </div>
-</header>
-<section>
-<div class=""></div>
-</section>
-
 <div id="signupModal" class="modal">
 <div class="modal-header">
   <span>Get Started</span>
@@ -44,7 +38,7 @@ var header = `<header>
   <form>
     <div class="input-box-container">
       <label>
-        Name
+        Full Name
       </label>
       <input type="text" id="name" placeholder="Enter your name" required />
     </div>
@@ -65,7 +59,7 @@ var header = `<header>
       <label>
         Password
       </label>
-      <input type="password" id="name" placeholder="Enter your Password" />
+      <input type="password" id="name" placeholder="Enter your Password" required/>
     </div>
 
     <div class="input-box-container">
@@ -76,6 +70,7 @@ var header = `<header>
         type="password"
         id="name"
         placeholder="Enter your Confirm Password"
+        required
       />
     </div>
     <button class="form-submit-btn" type="submit">Sign Up</button>
@@ -85,7 +80,7 @@ var header = `<header>
 
 <div id="signinModal" class="modal">
 <div class="modal-header">
-  <span>Get Started</span>
+  <span>Welcome Back!</span>
   <span class="close" onclick="closeModal('signinModal')">&times;</span>
 </div>
 <div class="modal-content">
@@ -116,8 +111,10 @@ var header = `<header>
     <button class="form-submit-btn" type="submit">Sign In</button>
   </form>
   <div class="signup-link-container">
+  <span onclick="opeSignupCloseSignin()" >
     <span>Not a member?</span>
-    <span class="signup-link" onclick="opeSignupCloseSignin()">Sign Up</span>
+    <span class="signup-link">Sign Up</span>
+  </span>
   </div>
 </div>
 </div>`;

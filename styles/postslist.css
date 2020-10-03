@@ -16,6 +16,9 @@
   background-color: white;
   margin-bottom: 20px;
 }
+.post-card:hover {
+  box-shadow: 5px 5px #d4cece;
+}
 .post-title {
   background-color: white;
   padding: 10px;
@@ -54,16 +57,16 @@
   cursor: pointer;
 }
 
-.modal-buttons-container{
+.modal-buttons-container {
   display: flex;
   justify-content: space-between;
 }
-.delete-confirm-msg{
+.delete-confirm-msg {
   text-align: center;
   padding: 20px 0px;
 }
 
-.delete-yes-btn{
+.delete-yes-btn {
   background-color: green;
   height: 34px;
   color: #fff;
@@ -73,7 +76,7 @@
   width: 80px;
 }
 
-.delete-no-btn{
+.delete-no-btn {
   background-color: red;
   height: 34px;
   color: #fff;
